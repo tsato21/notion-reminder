@@ -310,23 +310,12 @@ class NotionReminder {
 function onOpen() {
   let ui = SpreadsheetApp.getUi();
   ui.createMenu('Notion Reminder')
-    .addItem('Conduct GAS Authorization', 'showAuthorization')
-    .addSeparator()
     .addItem('Create New Sheet', 'showCreateNewSheetModal')
     .addSeparator()
     .addItem('Test Reminder', 'testReminder')
     .addSeparator()
     .addItem('Update Index Sheet','updateIndexSheet')
     .addToUi();
-}
-
-/**
- * Prompts Google Apps Script authorization.
- */
-// Used to prompt Google Apps Script authorization
-function showAuthorization() {
-  SpreadsheetApp;
-  GmailApp;
 }
 
 /**

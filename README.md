@@ -1,1 +1,2 @@
-# remind-notion-todo
+# notion-reminder
+Integrates with Notion to automate and manage reminders for tasks or events via Gmail. It utilizes Google Sheets for configuration and data management.. You can find the details at [Notion Reminder](https://tsato21.github.io/gas-tools/each-tool/notion-reminder)
